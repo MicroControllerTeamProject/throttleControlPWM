@@ -33,3 +33,10 @@
 /.vs
 /throttleControlPWM/__vm
 /throttleControlPWM/.vs/throttleControlPWM
+throttleControlPWM/obj/x64/Debug/board.buildinfo
+throttleControlPWM/obj/x64/Debug/throttleControlPWM.eep
+throttleControlPWM/obj/x64/Debug/throttleControlPWM.elf
+throttleControlPWM/obj/x64/Debug/throttleControlPWM.hex
+throttleControlPWM/obj/x64/Debug/throttleControlPWM.ino.eep
+throttleControlPWM/obj/x64/Debug/throttleControlPWM.ino.elf
+throttleControlPWM/obj/x64/Debug/throttleControlPWM.ino.hex

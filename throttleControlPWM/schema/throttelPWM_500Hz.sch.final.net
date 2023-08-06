@@ -1,0 +1,38 @@
+* SpiceNetList
+* 
+* Exported from throttelPWM_500Hz.sch at 03/08/23 16:57
+* 
+* EAGLE Version 9.6.2 Copyright (c) 1988-2020 Autodesk, Inc.
+* 
+.TEMP=25.0
+
+* --------- .OPTIONS ---------
+.OPTIONS ABSTOL=1e-12 GMIN=1e-12 PIVREL=1e-3 ITL1=100 ITL2=50 PIVTOL=1e-13 RELTOL=1e-3 VNTOL=1e-6 CHGTOL=1e-15 ITL4=10 METHOD=TRAP SRCSTEPS=0 TRTOL=7 NODE
+
+* --------- .PARAMS ---------
+
+* --------- devices ---------
+R_R1 N_2 N_5 5k 
+V_V1 N_2 0 DC 5V AC 0 PULSE(0 5 0.001 0 0 0.001 0.002) 
+C_C1 N_5 0 10u 
+
+* --------- simulation ---------
+.control
+set filetype=ascii
+OP
+write throttelPWM_500Hz.sch.sim
+.endc
+
+
+
+.END
+
+
+
+
+
+
+
+
+
+

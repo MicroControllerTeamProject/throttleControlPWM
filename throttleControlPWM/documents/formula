@@ -1,0 +1,8 @@
+  math site for create functions
+  
+  https://www.desmos.com/calculator/bxzzoo5gad?lang=it
+  
+  
+  calculate prescale from frequency
+  
+  prescale =  (clock / (frequency*256))

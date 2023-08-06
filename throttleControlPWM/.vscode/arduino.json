@@ -1,0 +1,6 @@
+{
+    "port": "/dev/ttyUSB0",
+    "board": "attiny:avr:ATtiny85",
+    "sketch": "throttleControlPWM.ino",
+    "configuration": "cpu=attiny85,clock=internal1"
+}
